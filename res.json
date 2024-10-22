@@ -1,0 +1,116 @@
+{
+    "quiz_questions": {
+        "mcq": [
+            {
+                "question": "What is the derivative of the area A of a circle with respect to its radius r?",
+                "options": [
+                    "2\u03c0r",
+                    "\u03c0r^2",
+                    "\u03c0r",
+                    "2r"
+                ],
+                "answer": "2\u03c0r",
+                "explanation": "The area A of a circle is given by A = \u03c0r^2. The derivative with respect to r is dA/dr = 2\u03c0r."
+            },
+            {
+                "question": "When is a function said to be increasing on an interval?",
+                "options": [
+                    "If f'(x) < 0",
+                    "If f'(x) = 0",
+                    "If f'(x) > 0",
+                    "If f(x) is constant"
+                ],
+                "answer": "If f'(x) > 0",
+                "explanation": "A function is increasing on an interval if its derivative is positive throughout that interval."
+            },
+            {
+                "question": "What is the marginal cost when 3 units are produced for the cost function C(x) = 0.005x^3 - 0.02x^2 + 30x + 5000?",
+                "options": [
+                    "30.015",
+                    "30.02",
+                    "30",
+                    "29.99"
+                ],
+                "answer": "30.015",
+                "explanation": "The marginal cost is found by taking the derivative of the cost function and evaluating it at x = 3."
+            },
+            {
+                "question": "What is the formula for the volume V of a cube with side length x?",
+                "options": [
+                    "x^3",
+                    "6x^2",
+                    "3x^2",
+                    "2x^3"
+                ],
+                "answer": "x^3",
+                "explanation": "The volume of a cube is calculated as V = x^3, where x is the length of a side."
+            }
+        ],
+        "true_false": [
+            {
+                "question": "The derivative of a function can be used to find the maximum and minimum values of that function.",
+                "answer": "true",
+                "explanation": "The first derivative test helps identify local maxima and minima of a function."
+            },
+            {
+                "question": "If a function is decreasing on an interval, its derivative must be positive throughout that interval.",
+                "answer": "false",
+                "explanation": "If a function is decreasing, its derivative must be negative."
+            },
+            {
+                "question": "The rate of change of the area of a circle increases as the radius increases.",
+                "answer": "true",
+                "explanation": "As the radius increases, the rate of change of area (2\u03c0r) also increases."
+            },
+            {
+                "question": "The marginal revenue is the rate of change of total revenue with respect to the number of items sold.",
+                "answer": "true",
+                "explanation": "Marginal revenue is defined as the derivative of the total revenue function."
+            }
+        ],
+        "fill_ups": [
+            {
+                "question": "The rate of change of distance s with respect to time t is represented by ____.",
+                "answer": "ds/dt",
+                "explanation": "The derivative ds/dt represents the rate of change of distance with respect to time."
+            },
+            {
+                "question": "The formula for the surface area S of a cube with side length x is ____.",
+                "answer": "6x^2",
+                "explanation": "The surface area of a cube is calculated as S = 6x^2."
+            },
+            {
+                "question": "The total cost C(x) associated with the production of x units is given by ____.",
+                "answer": "0.005x^3 - 0.02x^2 + 30x + 5000",
+                "explanation": "This is the cost function provided in the problem statement."
+            },
+            {
+                "question": "The area A of a circle is given by the formula ____.",
+                "answer": "\u03c0r^2",
+                "explanation": "The area of a circle is calculated using the formula A = \u03c0r^2."
+            }
+        ],
+        "short_answer": [
+            {
+                "question": "Explain how the derivative can be used to find the equation of the tangent line to a curve at a point.",
+                "answer": "The derivative at a point gives the slope of the tangent line at that point. Using the point-slope form of a line, y - f(a) = f'(a)(x - a), we can find the equation of the tangent line.",
+                "explanation": "The derivative provides the slope, and the point-slope form allows us to write the equation of the tangent line."
+            },
+            {
+                "question": "What is the significance of finding turning points on the graph of a function?",
+                "answer": "Turning points indicate where the function changes from increasing to decreasing or vice versa, which helps identify local maxima and minima.",
+                "explanation": "Turning points are critical for understanding the behavior of the function and optimizing values."
+            },
+            {
+                "question": "Describe the Chain Rule in the context of derivatives.",
+                "answer": "The Chain Rule states that if a variable y depends on u and u depends on x, then the derivative of y with respect to x is the product of the derivative of y with respect to u and the derivative of u with respect to x.",
+                "explanation": "This rule allows us to differentiate composite functions effectively."
+            },
+            {
+                "question": "How can the second derivative test be used to determine concavity?",
+                "answer": "The second derivative test states that if f''(x) > 0, the function is concave up, and if f''(x) < 0, the function is concave down.",
+                "explanation": "This test helps determine the curvature of the graph and can indicate points of inflection."
+            }
+        ]
+    }
+}

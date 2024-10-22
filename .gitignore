@@ -1,0 +1,11 @@
+#  add env to the  gitigonre
+read_pdf_env
+ 
+# add the .env file  to git ignore
+.env
+
+# add pdf  file to  gitignore
+aqa-gcse-maths-higher-textbook.pdf
+
+
+
